@@ -12,6 +12,9 @@ export default {
         "gradient-from": "hsl(6, 100%, 80%)",
         "gradient-to": "hsl(335, 100%, 65%)",
       },
+      screens: {
+        lg: { max: "1024px" },
+      },
     },
   },
   plugins: [],
