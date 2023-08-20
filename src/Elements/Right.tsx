@@ -9,10 +9,13 @@ const Right = () => {
         You've used <span className="text-white">815 GB</span> of your storage
       </p>
       <div className="h-5 w-full bg-very-dark-blue rounded-full border-[4px] border-very-dark-blue flex items-center overflow-hidden mt-4 mb-[10px] lg:m-0">
-        <div className="h-[20px] bg-gradient-to-r from-gradient-from to-gradient-to w-[81.5%] rounded-full"></div>
+        <div
+          className="h-[20px] bg-gradient-to-r from-gradient-from to-gradient-to w-[81.5%] rounded-full"
+          id="progress"
+        ></div>
         <div className="bg-white w-[10px] h-[10px] rounded-full relative -left-[12px]"></div>
       </div>
-      <div className="flex justify-between lg:w-full lg:text-sm">
+      <div className="flex justify-between lg:w-full lg:text-sm lg:font-bold lg:text-pale-blue">
         <p>0 GB</p>
         <p>1000 GB</p>
       </div>
